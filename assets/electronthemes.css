@@ -37,6 +37,10 @@
 	top: 3px !important;
     color: #003333 !important;
 }
+.pd-body .form__label {
+	font-weight: 700;
+	font-size: 18px;
+}
 .pd-body .swym-button,
 .pd-body .shopify-payment-button__button,
 .btn-primary {
