@@ -197,6 +197,9 @@
   .pd-footer > div {
   	max-width: 315px;
   }
+  .pd-body > *{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 749px){
   .pd-head {
@@ -215,9 +218,7 @@
   	flex-direction: column;
   	text-align: center;
   }
-  .pd-body > *{
-    width: 100%;
-  }
+
   .pd-footer {
   	flex-direction: column;
   	align-items: center;
