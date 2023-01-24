@@ -69,7 +69,6 @@
 	justify-content: space-between;
 	display: flex;
     flex-wrap: wrap;
-	gap: 30px;
     align-items: flex-start;
 }
 .pd-head {
