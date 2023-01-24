@@ -200,6 +200,9 @@
   .pd-body > *{
     width: 50%;
   }
+  .payment-we-accept{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 749px){
   .pd-head {
