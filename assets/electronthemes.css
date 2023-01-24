@@ -9,6 +9,9 @@
 	font-size: 16px;
 	padding: 0 8px;
 }
+.pd-body .select::before, .pd-body .select::after {
+	box-shadow: none !important;
+}
 .pd-body .shopify-payment-button__button,
 .btn {
     min-height: 47px;
