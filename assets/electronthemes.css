@@ -155,7 +155,7 @@
 	padding: 0;
 }
 
-.pd-body > div{
+.pd-body > *{
     width: 33.33%;
 }
 
@@ -216,7 +216,7 @@
   	flex-direction: column;
   	text-align: center;
   }
-  .pd-body > div{
+  .pd-body > *{
     width: 100%;
   }
   .pd-footer {
