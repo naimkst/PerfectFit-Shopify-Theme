@@ -225,6 +225,16 @@
     },
     "1674407924e43c0b64": {
       "type": "apps",
+      "blocks": {
+        "6a6741a5-aa6f-427a-91f2-4018f4d44069": {
+          "type": "shopify:\/\/apps\/instafeedstory-instagram-feed\/blocks\/app-block-feeds\/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "6a6741a5-aa6f-427a-91f2-4018f4d44069"
+      ],
       "settings": {
         "include_margins": true
       }
