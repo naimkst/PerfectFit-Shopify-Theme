@@ -199,10 +199,9 @@
   	max-width: 315px;
   }
   .pd-body > *{
-    width: 50%;
+    width: 100%;
   }
   .payment-we-accept{
-    width: 100%;
     text-align: center;
   }
 }
@@ -222,9 +221,6 @@
   	align-items: center;
   	flex-direction: column;
   	text-align: center;
-  }
-  .pd-body > *{
-    width: 100%;
   }
   .pd-footer {
   	flex-direction: column;
