@@ -154,6 +154,11 @@
 .pd-body .quantity__input {
 	padding: 0;
 }
+
+.pd-body > div{
+    width: 33.33%;
+}
+
 .product-form__buttons {
 	display: flex;
 	flex-direction: column;
@@ -210,6 +215,9 @@
   	align-items: center;
   	flex-direction: column;
   	text-align: center;
+  }
+  .pd-body > div{
+    width: 100%;
   }
   .pd-footer {
   	flex-direction: column;
