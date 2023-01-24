@@ -220,6 +220,10 @@
   }
 }
 @media screen and (max-width: 749px){
+  .egallery-sec slider-component {
+  	max-width: unset;
+  	margin-right: unset;
+  }
   .pd-head {
   	flex-direction: column;
     text-align: center;
