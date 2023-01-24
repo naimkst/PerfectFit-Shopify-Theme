@@ -26,11 +26,15 @@
 	font-size: 17px !important;
 	text-transform: uppercase;
 }
-.swym-button {
+.pd-body .swym-button {
 	display: flex !important;
 	align-items: center !important;
 	background: #FFCD05 !important;
 	color: #003333 !important;
+}
+.pd-body .swym-button::after {
+	left: 10px !important;
+	top: 3px !important;
 }
 .pd-body .swym-button,
 .pd-body .shopify-payment-button__button,
