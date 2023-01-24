@@ -370,6 +370,7 @@
     {%- for block in section.blocks -%}
     {%- case block.type -%}
 
+    <div>
     {%- when 'variant_picker' -%}
     {%- unless product.has_only_default_variant -%}
       {%- if block.settings.picker_type == 'button' -%}
@@ -477,6 +478,7 @@
         </div>
       </div>
     </noscript>
+    </div>
 
     <div class="pd-body-middle">
     {%- when 'quantity_selector' -%}
