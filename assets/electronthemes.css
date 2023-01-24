@@ -2,6 +2,10 @@
 	max-width: 100%;
 	width: 100%;
 }
+.egallery-sec slider-component {
+	max-width: 550px;
+	margin-right: auto;
+}
 .pd-body select {
 	background: #f1f1f1;
 	border-color: transparent;
