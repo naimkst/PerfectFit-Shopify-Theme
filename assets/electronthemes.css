@@ -204,6 +204,12 @@
   	flex-direction: column;
   	align-items: center;
   }
+  .pd-body .product-form__input{
+    width: 100%;
+  }
+  .pd-body .product-form__input .select {
+  	max-width: 100%;
+  }
   .payment-we-accept{
     text-align: center;
   }
