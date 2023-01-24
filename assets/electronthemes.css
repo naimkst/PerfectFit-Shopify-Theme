@@ -70,6 +70,7 @@
 	display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    row-gap: 30px;
 }
 .pd-head {
 	display: flex;
