@@ -8,16 +8,6 @@
           "settings": {
           }
         },
-        "2415951d-cfc0-4dfe-adef-1ae0ecf4bda4": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#ffcd05",
-            "star_size": 16,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -26,7 +16,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "dropdown"
           }
         },
         "quantity_selector": {
@@ -90,7 +80,6 @@
       },
       "block_order": [
         "title",
-        "2415951d-cfc0-4dfe-adef-1ae0ecf4bda4",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -157,7 +146,6 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eternity1.png",
             "title": "Sustainable European Products",
             "text": "",
             "link_label": "",
@@ -167,7 +155,6 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eternity2.png",
             "title": "Bespoke Interior Design",
             "text": "",
             "link_label": "",
@@ -177,7 +164,6 @@
         "f7d0ed52-6782-4d7a-a875-e62856785dd8": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eternity3.png",
             "title": "High-Quality and Designed Products",
             "text": "",
             "link_label": "",
@@ -239,16 +225,6 @@
     },
     "1674407924e43c0b64": {
       "type": "apps",
-      "blocks": {
-        "58204f3f-2b0e-4f51-91fa-f9b38517d2b7": {
-          "type": "shopify:\/\/apps\/instafeedstory-instagram-feed\/blocks\/app-block-feeds\/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "58204f3f-2b0e-4f51-91fa-f9b38517d2b7"
-      ],
       "settings": {
         "include_margins": true
       }
