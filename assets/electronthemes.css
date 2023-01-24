@@ -67,8 +67,8 @@
 	padding: 25px 0;
 	margin: 25px 0;
 	justify-content: space-between;
-	display: grid;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
+	display: flex;
+    flex-wrap: wrap;
 	gap: 30px;
     align-items: flex-start;
 }
