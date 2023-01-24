@@ -2,7 +2,13 @@
 	max-width: 100%;
 	width: 100%;
 }
-
+.pd-body select {
+	background: #f1f1f1;
+	border-color: transparent;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 0 8px;
+}
 .pd-body .shopify-payment-button__button,
 .btn {
     min-height: 47px;
