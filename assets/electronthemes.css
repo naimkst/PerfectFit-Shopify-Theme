@@ -198,7 +198,7 @@
   	max-width: 315px;
   }
   .pd-body > *{
-    width: 100%;
+    width: 50%;
   }
 }
 @media screen and (max-width: 749px){
