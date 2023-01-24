@@ -198,8 +198,11 @@
   .pd-footer > div {
   	max-width: 315px;
   }
-  .pd-body > *{
-    width: 100%;
+  .pd-body > * {
+  	width: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
   }
   .payment-we-accept{
     text-align: center;
