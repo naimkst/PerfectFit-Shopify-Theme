@@ -34,13 +34,15 @@
 	font-size: 17px !important;
 	text-transform: uppercase;
 }
+.pd-body .swym-button {
+  display: none;
+}
 .pd-body .swym-button,
  .pd-head-right .swym-button{
 	display: flex !important;
 	align-items: center !important;
 	background: #FFCD05 !important;
 	color: #003333 !important;
-    
 }
 .pd-head-right .swym-button-bar {
    margin: 0 !important;
