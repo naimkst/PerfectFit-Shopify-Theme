@@ -225,6 +225,15 @@
     bottom: 0;
 }
 
+.slider-button svg{
+  width: 30px;
+  height: 30px;
+}
+
+.slider-button.slider-button--next {
+  bottom: 0;
+}
+
 @media screen and (max-width: 990px){
   .pd-footer > div {
   	max-width: 315px;
