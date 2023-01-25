@@ -222,7 +222,8 @@
     position: absolute;
     flex-direction: column;
     justify-content: space-between;
-    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .slider-button svg.icon{
@@ -230,9 +231,11 @@
   height: 30px;
   transform: rotate(0deg);
 }
-
+.slider-button.slider-button--prev {
+    top: -50px;
+}
 .slider-button.slider-button--next {
-  bottom: 0;
+    bottom: -50px;
 }
 
 @media screen and (max-width: 990px){
