@@ -949,17 +949,12 @@ customElements.define('product-recommendations', ProductRecommendations);
 
 
 // electronthemes
-// $(document).on('load', function(){
-//   var wishlistButton = $('.swym-button-bar').html();
-//   $('.pd-head-right').appendTo(wishlistButton)
-//   console.log(wishlistButton)
-// })
-window.addEventListener("load", function() {
-  setTimeout(function(){
-    var wishlistButton = document.querySelector('.swym-button-bar');
-    document.querySelector('.pd-head-right').append(wishlistButton)
-  }, 5000)
-});
+// window.addEventListener("load", function() {
+//   setTimeout(function(){
+//     var wishlistButton = document.querySelector('.swym-button-bar');
+//     document.querySelector('.pd-head-right').append(wishlistButton)
+//   }, 5000)
+// });
 
 
 
