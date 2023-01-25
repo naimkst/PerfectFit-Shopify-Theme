@@ -469,6 +469,14 @@ a.product__text {
   font-family: inherit;
 }
 
+.shopify-payment-button__button {
+  position: relative;
+}
+
+.shopify-payment-button__button:before{
+  content: attr(data-price)
+}
+
 .product--no-media .product__info-container > modal-opener {
   display: block;
   text-align: center;
