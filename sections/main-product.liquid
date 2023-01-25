@@ -540,26 +540,7 @@
               value="{{ product.selected_or_first_available_variant.id }}"
               disabled
             >
-            <div class="product-form__buttons" data-price="{{ product.price | money }}">
-
-              <div class="size-switch">
-                            {% unless product.has_only_default_variant %}
-                            {% for product_option in product.options_with_values %}
-                            {% for value in product_option.values %}
-                              {{ value }}
-                            <div class="single-size">
-                                <label>
-                                    <input class="form-check-input" id="ProductSelect-{{ section.id }}" type="radio"
-                                        value="{{ value | escape }}" name="id" data-index="option{{ forloop.index }}"
-                                        data-symbol="{{ cart.currency.symbol }}">
-                                    <span> {{ value | join: ', ' }}</span>
-                                </label>
-                            </div>
-                            {% endfor %}
-                            {% endfor %}
-                            {% endunless %}
-                        </div>
-            
+            <div class="product-form__buttons" data-price="{{ product.price | money }}">            
               <button
                 type="submit"
                 name="add"
