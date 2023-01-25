@@ -949,11 +949,14 @@ customElements.define('product-recommendations', ProductRecommendations);
 
 
 // electronthemes
-$(document).on('load', function(){
-  var wishlistButton = $('.swym-button-bar').html();
-  $('.pd-head-right').appendTo(wishlistButton)
-  console.log(wishlistButton)
-})
+// $(document).on('load', function(){
+//   var wishlistButton = $('.swym-button-bar').html();
+//   $('.pd-head-right').appendTo(wishlistButton)
+//   console.log(wishlistButton)
+// })
+document.addEventListener("DOMContentLoaded", function() {
+    alert('Page is loaded');
+});
 
 
 
