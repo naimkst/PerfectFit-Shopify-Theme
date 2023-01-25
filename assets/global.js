@@ -949,5 +949,27 @@ customElements.define('product-recommendations', ProductRecommendations);
 
 
 // electronthemes
-var wishlistButton = $('.swym-button-bar').html();
-$('.pd-head-right').appendTo(wishlistButton)
+$(document).on('load', function(){
+  var wishlistButton = $('.swym-button-bar').html();
+  $('.pd-head-right').appendTo(wishlistButton)
+  console.log(wishlistButton)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
