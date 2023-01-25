@@ -953,7 +953,7 @@ window.addEventListener("load", function() {
   setTimeout(function(){
     var wishlistButton = document.querySelector('.swym-button-bar');
     document.querySelector('.pd-head-right').append(wishlistButton)
-  }, 5000)
+  }, 2000)
 });
 
 
