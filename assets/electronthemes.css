@@ -212,6 +212,19 @@
   padding: 50px 0;
 }
 
+
+.slider-button {
+    width: 44px;
+    height: 44px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    bottom: 0;
+}
+
 @media screen and (max-width: 990px){
   .pd-footer > div {
   	max-width: 315px;
