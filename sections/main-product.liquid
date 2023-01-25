@@ -540,9 +540,7 @@
               disabled
             >
             <div class="product-form__buttons" data-price="{{ product.price | money }}">
-              {% for variant in product.variants %}          			
-    {{variant.price}}          			
-{% endfor %}
+{% assign current = product.selected_or_first_available_variant %}
               <button
                 type="submit"
                 name="add"
