@@ -541,6 +541,7 @@
             >
             <div class="product-form__buttons" data-price="{{ product.price | money }}">
 {% assign current = product.selected_or_first_available_variant %}
+            {{current.price}}
               <button
                 type="submit"
                 name="add"
