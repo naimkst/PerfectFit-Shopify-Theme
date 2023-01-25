@@ -954,7 +954,7 @@ customElements.define('product-recommendations', ProductRecommendations);
 //   $('.pd-head-right').appendTo(wishlistButton)
 //   console.log(wishlistButton)
 // })
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("load", function() {
     alert('Page is loaded');
 });
 
