@@ -955,7 +955,8 @@ customElements.define('product-recommendations', ProductRecommendations);
 //   console.log(wishlistButton)
 // })
 window.addEventListener("load", function() {
-    alert('Page is loaded');
+    var wishlistButton = document.querySelector('.swym-button-bar');
+  console.log(wishlistButton)
 });
 
 
