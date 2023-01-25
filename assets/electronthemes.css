@@ -233,6 +233,9 @@
 .slider-button.slider-button--prev {
     top: -50px;
 }
+.slider-button.slider-button--next svg.icon {
+  transform: rotate(180deg);
+}
 .slider-button.slider-button--next {
     bottom: -50px;
 }
