@@ -40,6 +40,7 @@
 	align-items: center !important;
 	background: #FFCD05 !important;
 	color: #003333 !important;
+    margin: 0 !important;
 }
 .pd-body .swym-button::after,
 .pd-head-right .swym-button:after{
