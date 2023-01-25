@@ -35,7 +35,7 @@
 	text-transform: uppercase;
 }
 .pd-body .swym-button {
-  display: none;
+  display: none !important;
 }
 .pd-body .swym-button,
  .pd-head-right .swym-button{
