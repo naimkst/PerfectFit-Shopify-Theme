@@ -236,7 +236,7 @@
 .slider-button.slider-button--next {
     bottom: -50px;
 }
-.slider-button.slider-button--prev svg.icon {
+.slider-button.slider-button--next svg.icon {
   transform: rotate(0deg);
 }
 
