@@ -3,6 +3,7 @@
   class="page-width section-{{ section.id }}-padding"
   data-section="{{ section.id }}"
 >
+  <script type="application/json"> {{ product.variants | json }} </script>
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
   {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
@@ -541,26 +542,28 @@
             >
             <div class="product-form__buttons" data-price="{{ product.price | money }}">
 
-              <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-                {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
-              </div>
-              {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
-                <div class="product__tax caption rte">
-                  {%- if shop.taxes_included -%}
-                    {{ 'products.product.include_taxes' | t }}
-                  {%- endif -%}
-                  {%- if shop.shipping_policy.body != blank -%}
-                    {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                  {%- endif -%}
-                </div>
-              {%- endif -%}
-              <div {{ block.shopify_attributes }}>
-                {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
-                {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
-                  <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-                  {{ form | payment_terms }}
-                {%- endform -%}
-              </div>
+              <div class="size-switch">
+                            {% unless product.has_only_default_variant %}
+                            {% for product_option in product.options_with_values %}
+                            {% for value in product_option.values %}
+                            <div class="single-size">
+                                <label>
+                                    <input class="form-check-input" id="ProductSelect-{{ section.id }}" type="radio"
+                                        value="{{ value | escape }}" name="id" data-index="option{{ forloop.index }}"
+                                        data-symbol="{{ cart.currency.symbol }}">
+                                    <span> {{ value | join: ', ' }}</span>
+
+                                    {% if settings.variant_image %}
+                                    <img src="{{ settings.variant_image | img_url: '' }}" alt="size-switch-bg" />
+                                    {% else %}
+                                    <img src="{{ 'size-switch-bg.png' | asset_url }}" alt="size-switch-bg" />
+                                    {% endif %}
+                                </label>
+                            </div>
+                            {% endfor %}
+                            {% endfor %}
+                            {% endunless %}
+                        </div>
             
               <button
                 type="submit"
