@@ -466,6 +466,7 @@ a.product__text {
 
 .product-form__buttons button {
   font-weight: 700;
+  font-family: inherit;
 }
 
 .product--no-media .product__info-container > modal-opener {
