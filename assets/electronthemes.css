@@ -231,7 +231,7 @@
   height: 30px;
 }
 .slider-button.slider-button--prev {
-    top: -50px;
+    top: -40px;
 }
 .slider-button.slider-button--next svg.icon {
   transform: rotate(180deg);
