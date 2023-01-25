@@ -546,18 +546,13 @@
                             {% unless product.has_only_default_variant %}
                             {% for product_option in product.options_with_values %}
                             {% for value in product_option.values %}
+                              {{ value }}
                             <div class="single-size">
                                 <label>
                                     <input class="form-check-input" id="ProductSelect-{{ section.id }}" type="radio"
                                         value="{{ value | escape }}" name="id" data-index="option{{ forloop.index }}"
                                         data-symbol="{{ cart.currency.symbol }}">
                                     <span> {{ value | join: ', ' }}</span>
-
-                                    {% if settings.variant_image %}
-                                    <img src="{{ settings.variant_image | img_url: '' }}" alt="size-switch-bg" />
-                                    {% else %}
-                                    <img src="{{ 'size-switch-bg.png' | asset_url }}" alt="size-switch-bg" />
-                                    {% endif %}
                                 </label>
                             </div>
                             {% endfor %}
