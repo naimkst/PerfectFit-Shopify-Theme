@@ -551,7 +551,7 @@
               >
                 <span>
                   {%- if product.selected_or_first_available_variant.available -%}
-                    {{ 'products.product.add_to_cart' | t }} | {{ product.selected_variant }}
+                    {{ 'products.product.add_to_cart' | t }} | {{ product.selected_or_first_available_variant.price | money }}
                   {%- else -%}
                     {{ 'products.product.sold_out' | t }}
                   {%- endif -%}
