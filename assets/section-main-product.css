@@ -477,6 +477,11 @@ a.product__text {
   content: attr(data-price)
 }
 
+.breadcrumb a {
+  color: #001616;
+  text-decoration: none;
+}
+
 .product--no-media .product__info-container > modal-opener {
   display: block;
   text-align: center;
