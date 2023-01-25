@@ -21,7 +21,7 @@
 .pd-body .select::before, .pd-body .select::after {
 	box-shadow: none !important;
 }
-.pd-body .swym-button, .pd-body .shopify-payment-button__button, .btn {
+.pd-body .swym-button, .pd-head-right .swym-button, .pd-body .shopify-payment-button__button, .btn {
 	min-height: 47px;
 	text-decoration: none;
 	display: inline-block;
@@ -34,7 +34,8 @@
 	font-size: 17px !important;
 	text-transform: uppercase;
 }
-.pd-body .swym-button {
+.pd-body .swym-button,
+ .pd-head-right .swym-button{
 	display: flex !important;
 	align-items: center !important;
 	background: #FFCD05 !important;
@@ -51,6 +52,7 @@
 	text-align: left;
 }
 .pd-body .swym-button,
+.pd-head-right .swym-button,
 .pd-body .shopify-payment-button__button,
 .btn-primary {
 	background: #FFCD05;
