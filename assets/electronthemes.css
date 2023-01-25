@@ -65,6 +65,10 @@
 	background: #FFCD05;
 	color: #003333;
 }
+.pd-head-right .swym-added.swym-add-to-wishlist {
+    background: #FFCD05 !important;
+	color: #003333;
+}
 .pd-body .shopify-payment-button__button:hover,
 .btn-primary:hover{
   background: #E3B605;
