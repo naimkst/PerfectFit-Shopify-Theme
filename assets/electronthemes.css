@@ -305,6 +305,14 @@
   .thumbnail-slider {
     display: flex !important;
   }
+  .thumbnail-slider .thumbnail {
+      display: block;
+      height: 15px;
+      width: 15px;
+      cursor: pointer;
+      background-color: red;
+      border-radius: 50%;
+  }
 }
 
 @media only screen and (min-width: 600px) {
