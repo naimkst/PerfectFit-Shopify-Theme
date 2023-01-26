@@ -300,7 +300,7 @@
   .product--thumbnail_slider .product__media-gallery {
     display: block !important;
   }
-  .product--thumbnail_slider .product__media-gallery slider-component.thumbnail-slider {
+  .egallery-sec slider-component {
       width: 100% !important;
   }
   .thumbnail-slider .thumbnail-list.slider {
