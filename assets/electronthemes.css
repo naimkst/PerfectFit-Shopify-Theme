@@ -319,7 +319,7 @@
   }
   .thumbnail-slider .thumbnail img,
   .thumbnail-slider .slider-button{
-    display: none;
+    display: none !important;
   }
   .thumbnail-slider .thumbnail-list__item.slider__slide {
     width: 15px;
