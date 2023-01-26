@@ -315,7 +315,7 @@
   }
   .thumbnail-slider .thumbnail[aria-current] {
     background-color: #003333;
-    border: 0;
+    border-color: transparent;
   }
   .thumbnail-slider .thumbnail img,
   .thumbnail-slider .slider-button{
