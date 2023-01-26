@@ -301,7 +301,10 @@
   /* Slider mobile thumbnail */
   .slider-buttons {
     display: none;
-  }  
+  }
+  .thumbnail-slider {
+    display: flex !important;
+  }
 }
 
 @media only screen and (min-width: 600px) {
