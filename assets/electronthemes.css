@@ -310,15 +310,20 @@
       height: 15px;
       width: 15px;
       cursor: pointer;
-      background-color: red;
+      background-color: #FFCD05;
       border-radius: 50%;
+  }
+  .thumbnail-slider .thumbnail[aria-current] {
+    background-color: #003333;
+    border: 0;
   }
   .thumbnail-slider .thumbnail img,
   .thumbnail-slider .slider-button{
     display: none;
   }
   .thumbnail-slider .thumbnail-list__item.slider__slide {
-    width: auto;
+    width: 15px;
+    height: 15px;
   }
 }
 
