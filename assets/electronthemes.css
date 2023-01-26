@@ -313,7 +313,8 @@
       background-color: red;
       border-radius: 50%;
   }
-  .thumbnail-slider .thumbnail img {
+  .thumbnail-slider .thumbnail img,
+  .thumbnail-slider .slider-button{
     display: none;
   }
   .thumbnail-slider .thumbnail-list__item.slider__slide {
