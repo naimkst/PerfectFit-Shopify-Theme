@@ -316,6 +316,9 @@
   .thumbnail-slider .thumbnail img {
     display: none;
   }
+  .thumbnail-slider .thumbnail-list__item.slider__slide {
+    width: auto;
+  }
 }
 
 @media only screen and (min-width: 600px) {
