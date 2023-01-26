@@ -296,7 +296,12 @@
     width: 100%;
     max-width: 100%;
   }
-  
+
+
+  /* Slider mobile thumbnail */
+  .slider-buttons {
+    display: none;
+  }  
 }
 
 @media only screen and (min-width: 600px) {
