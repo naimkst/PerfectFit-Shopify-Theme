@@ -299,6 +299,9 @@
 
 
   /* Slider mobile thumbnail */
+  .thumbnail-slider .thumbnail-list.slider {
+    justify-content: center;
+  }
   .slider-buttons {
     display: none;
   }
