@@ -313,6 +313,9 @@
       background-color: red;
       border-radius: 50%;
   }
+  .thumbnail-slider .thumbnail img {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 600px) {
