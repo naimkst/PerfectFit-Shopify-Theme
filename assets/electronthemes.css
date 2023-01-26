@@ -305,6 +305,7 @@
   }
   .product--thumbnail_slider .product__media-gallery slider-component.thumbnail-slider .thumbnail-list.slider--tablet-up {
     flex-direction: row !important;
+    padding: 10px .7rem !important;
 }
   .thumbnail-slider .thumbnail-list.slider {
     justify-content: center;
