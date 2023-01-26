@@ -342,5 +342,4 @@
 .product--thumbnail_slider .product__media-gallery slider-component.thumbnail-slider{width:15%}
 .product--thumbnail_slider .slider-mobile-gutter .slider-button{display:none;}
 .product--thumbnail_slider .product__media-gallery slider-component.thumbnail-slider .thumbnail-list.slider--tablet-up{display: flex; padding: 0 0.7rem; flex: 1; scroll-padding-left: 0.5rem; flex-direction: column;}
-.product--thumbnail_slider .product__media-gallery slider-component.thumbnail-slider .thumbnail-list.slider--tablet-up .thumbnail-list__item{width: 100%;}
 }
