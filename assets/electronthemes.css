@@ -297,6 +297,9 @@
     max-width: 100%;
   }
   /* Slider mobile thumbnail */
+  .product--thumbnail_slider .product__media-gallery {
+    display: block !important;
+  }
   .thumbnail-slider .thumbnail-list.slider {
     justify-content: center;
   }
