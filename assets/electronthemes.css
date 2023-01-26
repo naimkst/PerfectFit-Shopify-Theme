@@ -296,8 +296,9 @@
     width: 100%;
     max-width: 100%;
   }
+}
 
-
+@media screen and (max-width: 599px){
   /* Slider mobile thumbnail */
   .thumbnail-slider .thumbnail-list.slider {
     justify-content: center;
